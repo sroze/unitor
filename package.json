@@ -1,7 +1,7 @@
 {
   "name": "unitor",
   "description": "A lightweight module to manipulate all the units you want.",
-  "version": "0.5.0",
+  "version": "0.1.0",
   "dependencies": {
     "lodash": "^2.4.1"
   },
