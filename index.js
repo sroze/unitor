@@ -1,7 +1,9 @@
 'use strict';
 
-var _ = require('lodash');
-var specifications = [require('./specifications/volume.json'), require('./specifications/mass.json'), require('./specifications/energy.json')];
+var _ = require('lodash')
+  , specifications = [ require('./specifications/volume.json')
+    , require('./specifications/mass.json')
+    , require('./specifications/energy.json') ];
 
 function Unitor(value, unit) {
   this.value = value;
@@ -9,11 +11,12 @@ function Unitor(value, unit) {
     this.unit = unit;
   } else {
     for (var i = 0; i < specifications.length; i++) {
-      var foundUnit = _.findKey(specifications[i].values, {'symbol': unit}) || _.findKey(specifications[i].values, {'name': unit});
+      var foundUnit = _.findKey(specifications[ i ].values
+          , { 'symbol': unit }) || _.findKey(specifications[ i ].values, { 'name': unit });
       if (foundUnit) {
-        this.system = specifications[i];
+        this.system = specifications[ i ];
         this.name = this.system.name;
-        this.unit = specifications[i].values[foundUnit];
+        this.unit = specifications[ i ].values[ foundUnit ];
         break;
       }
     }
@@ -26,12 +29,12 @@ function Unitor(value, unit) {
 Unitor.prototype.convert = function (symbol) {
   var coef = this.unit.coef;
   for (var i = 0; i < specifications.length; i++) {
-    var unit = _.findKey(specifications[i].values, {'symbol': symbol});
+    var unit = _.findKey(specifications[ i ].values, { 'symbol': symbol });
     if (unit) {
-      if (specifications[i].name !== this.name) {
-        throw new Error('Cannot convert ' + this.name + ' units in ' + specifications[i].name + ' units.');
+      if (specifications[ i ].name !== this.name) {
+        throw new Error('Cannot convert ' + this.name + ' units in ' + specifications[ i ].name + ' units.');
       } else {
-        this.unit = specifications[i].values[unit];
+        this.unit = specifications[ i ].values[ unit ];
         this.symbol = unit.symbol;
         this.value /= coef / this.unit.coef;
       }
