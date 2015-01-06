@@ -1,0 +1,140 @@
+{
+  "name": "volume",
+  "values": [
+    {
+      "name": "liter",
+      "coef": 1,
+      "symbol": "l"
+    },
+    {
+      "name": "decaliter",
+      "coef": 0.1,
+      "symbol": "dl"
+    },
+    {
+      "name": "hectoliter",
+      "coef": 0.01,
+      "symbol": "hl"
+    },
+    {
+      "name": "kiloliter",
+      "coef": 0.001,
+      "symbol": "kl"
+    },
+    {
+      "name": "deciliter",
+      "coef": 10,
+      "symbol": "dl"
+    },
+    {
+      "name": "centiliter",
+      "coef": 100,
+      "symbol": "cl"
+    },
+    {
+      "name": "mililiter",
+      "coef": 1000,
+      "symbol": "ml"
+    },
+    {
+      "name": "cubic kilometer",
+      "coef": 0.000000000001,
+      "symbol": "km3"
+    },
+    {
+      "name": "cubic hectometer",
+      "coef": 0.000000001,
+      "symbol": "hm3"
+    },
+    {
+      "name": "cubic decameter",
+      "coef": 0.000001,
+      "symbol": "dam3"
+    },
+    {
+      "name": "cubic meter",
+      "coef": 0.001,
+      "symbol": "m3"
+    },
+    {
+      "name": "cubic decimeter",
+      "coef": 1,
+      "symbol": "dm3"
+    },
+    {
+      "name": "cubic centimeter",
+      "coef": 1000,
+      "symbol": "cm3"
+    },
+    {
+      "name": "cubic millimiter",
+      "coef": 1000000,
+      "symbol": "mm3"
+    },
+    {
+      "name": "cubic foot",
+      "coef": 0.035314666721489,
+      "symbol": "ft3"
+    },
+    {
+      "name": "cubic inch",
+      "coef": 61.023744094732,
+      "symbol": "in3"
+    },
+    {
+      "name": "imperial gallon",
+      "coef": 0.26417205235815,
+      "symbol": "gallon"
+    },
+    {
+      "name": "pint",
+      "coef": 2.1133764188652,
+      "symbol": "pint"
+    },
+    {
+      "name": "fluid ounce",
+      "coef": 33.333333333333,
+      "symbol": "fl.oz"
+    },
+    {
+      "name": "tablespoon",
+      "coef": 66.666666666667,
+      "symbol": "tbs"
+    },
+    {
+      "name": "dessert spoon",
+      "coef": 200,
+      "symbol": "tsp"
+    },
+    {
+      "name": "barrel",
+      "coef": 0.0062898105697751,
+      "symbol": "bbl"
+    },
+    {
+      "name": "imperial bushel",
+      "coef": 0.027496154331794,
+      "symbol": "Imp.bsh."
+    },
+    {
+      "name": "US bushel",
+      "coef": 0.028377593258402,
+      "symbol": "U.S.bsh."
+    },
+    {
+      "name": "metric cup",
+      "coef": 4,
+      "symbol": "cup"
+    },
+    {
+      "name": "imperial cup",
+      "coef": 3.5195077544697,
+      "symbol": "imp.cup"
+    },
+    {
+      "name": "US cup",
+      "coef": 4.2267528377304,
+      "symbol": "US.cup"
+    }
+  ]
+}

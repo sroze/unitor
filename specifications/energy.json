@@ -1,0 +1,190 @@
+{
+  "name": "energy",
+  "values": [
+    {
+      "name": "joule",
+      "coef": 1,
+      "symbol": "J"
+    },
+    {
+      "name": "kilojoule",
+      "coef": 0.001,
+      "symbol": "kJ"
+    },
+    {
+      "name": "megaJoule",
+      "coef": 0.000001,
+      "symbol": "MJ"
+    },
+    {
+      "name": "gigajoule",
+      "coef": 0.000000001,
+      "symbol": "GJ"
+    },
+    {
+      "name": "kilocalorie",
+      "coef": 0.0002388458966275,
+      "symbol": "kcal"
+    },
+    {
+      "name": "calorie",
+      "coef": 0.2388458966275,
+      "symbol": "cal"
+    },
+    {
+      "name": "Kilowatt-hour",
+      "coef": 0.00000027777777777778,
+      "symbol": "kWh"
+    },
+    {
+      "name": "Megawatt-hour",
+      "coef": 0.00000000027777777777778,
+      "symbol": "MWh"
+    },
+    {
+      "name": "Watt-hour",
+      "coef": 0.00027777777777778,
+      "symbol": "Wh"
+    },
+    {
+      "name": "Watt-second",
+      "coef": 1,
+      "symbol": "Ws"
+    },
+    {
+      "name": "kilogram oil equivalent",
+      "coef": 0.00000002388458966275,
+      "symbol": "koe"
+    },
+    {
+      "name": "tonne oil equivalent",
+      "coef": 0.00000000002388458966275,
+      "symbol": "toe"
+    },
+    {
+      "name": "thousand tons oil equivalent",
+      "coef": 0.00000000000002388458966275,
+      "symbol": "ktoe"
+    },
+    {
+      "name": "megaton oil equivalent",
+      "coef": 0.00000000000000002388458966275,
+      "symbol": "kt"
+    },
+    {
+      "name": "barrel oil equivalent",
+      "coef": 0.00000000017060421187678,
+      "symbol": "boe"
+    },
+    {
+      "name": "thousand barrels oil equivalent",
+      "coef": 0.00000000000017060421187678,
+      "symbol": "kboe"
+    },
+    {
+      "name": "million barrels oil equivalent",
+      "coef": 0.00000000000000017060421187678,
+      "symbol": "Mboe"
+    },
+    {
+      "name": "billion cubic meter of natural gas",
+      "coef": 0.000000000000000026538432958611,
+      "symbol": "Gm3 NG"
+    },
+    {
+      "name": "billion cubic feet of natural gas",
+      "coef": 0.00000000000000091863806395191,
+      "symbol": "Gft3 NG"
+    },
+    {
+      "name": "million tons liquefied natural gas",
+      "coef": 0.000000000000000019227094677848,
+      "symbol": "Mt LNG"
+    },
+    {
+      "name": "billion tons liquefied natural gas",
+      "coef": 0.000000000000000000019227094677848,
+      "symbol": "Gt LNG"
+    },
+    {
+      "name": "kilogram coal equivalent",
+      "coef": 0.000000034120842375357,
+      "symbol": "kg SKE"
+    },
+    {
+      "name": "tonne coal equivalent",
+      "coef": 0.00000000034120842375357,
+      "symbol": "t SKE"
+    },
+    {
+      "name": "giga-electron-volts",
+      "coef": 6241509647.1204,
+      "symbol": "GeV"
+    },
+    {
+      "name": "tera-electron-volts",
+      "coef": 6241509.6471204,
+      "symbol": "TeV"
+    },
+    {
+      "name": "mega-electron-volts",
+      "coef": 6241509647120.4,
+      "symbol": "MeV"
+    },
+    {
+      "name": "kilo-electron-volts",
+      "coef": 6.2415096471204,
+      "symbol": "keV"
+    },
+    {
+      "name": "electron-volts",
+      "coef": 6.2415096471204,
+      "symbol": "eV"
+    },
+    {
+      "name": "british thermal unit",
+      "coef": 0.00094708628903179,
+      "symbol": "Btu"
+    },
+    {
+      "name": "million british thermal unit",
+      "coef": 0.00000000094708628903179,
+      "symbol": "MMBtu"
+    },
+    {
+      "name": "therm",
+      "coef": 0.0000000094708628903179,
+      "symbol": "thm"
+    },
+    {
+      "name": "quad",
+      "coef": 0.00000000000000000094708628903179,
+      "symbol": "quad"
+    },
+    {
+      "name": "erg",
+      "coef": 10000000,
+      "symbol": "erg"
+    },
+    {
+      "name": "megaton TNT",
+      "coef": 0.00000000000000023900573613767,
+      "symbol": "Mt"
+    },
+    {
+      "name": "kiloton TNT",
+      "coef": 0.00000000000023900573613767,
+      "symbol": "kT"
+    },
+    {
+      "name": "Refregiration ton",
+      "coef": 0.00000000000078984760072525,
+      "symbol": "refrigerationton"
+    },
+    {
+      "name": "Foot-pound",
+      "coef": 0.73756214927727,
+      "symbol": "ft-lb"
+    }
+  ]
+}

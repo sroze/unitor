@@ -1,0 +1,130 @@
+{
+  "name": "mass",
+  "values": [
+    {
+      "name": "kilotonne",
+      "coef": 0.000001,
+      "symbol": "kt"
+    },
+    {
+      "name": "hectotonne",
+      "coef": 0.00001,
+      "symbol": "ht"
+    },
+    {
+      "name": "decatonne",
+      "coef": 0.0001,
+      "symbol": "dat"
+    },
+    {
+      "name": "tonne",
+      "coef": 0.001,
+      "symbol": "t"
+    },
+    {
+      "name": "decitonne",
+      "coef": 0.01,
+      "symbol": "dt"
+    },
+    {
+      "name": "centitonne",
+      "coef": 0.1,
+      "symbol": "ct"
+    },
+    {
+      "name": "militonne",
+      "coef": 1,
+      "symbol": "mt"
+    },
+    {
+      "name": "kilogram",
+      "coef": 1,
+      "symbol": "kg"
+    },
+    {
+      "name": "hectogram",
+      "coef": 10,
+      "symbol": "hg"
+    },
+    {
+      "name": "decagram",
+      "coef": 100,
+      "symbol": "dag"
+    },
+    {
+      "name": "gram",
+      "coef": 1000,
+      "symbol": "g"
+    },
+    {
+      "name": "decigram",
+      "coef": 10000,
+      "symbol": "dg"
+    },
+    {
+      "name": "centigram",
+      "coef": 100000,
+      "symbol": "cg"
+    },
+    {
+      "name": "milligram",
+      "coef": 1000000,
+      "symbol": "mg"
+    },
+    {
+      "name": "quintal",
+      "coef": 0.01,
+      "symbol": "q"
+    },
+    {
+      "name": "livre avoirdupois",
+      "coef": 2.2046223302272,
+      "symbol": "lb"
+    },
+    {
+      "name": "quintal avoirdupois",
+      "coef": 0.019684130552221,
+      "symbol": "cwt"
+    },
+    {
+      "name": "quarter avoirdupois",
+      "coef": 0.078736512041805,
+      "symbol": "qtr"
+    },
+    {
+      "name": "stone avoirdupois",
+      "coef": 0.15747304441777,
+      "symbol": "st"
+    },
+    {
+      "name": "once avoirdupois",
+      "coef": 35.27396194958,
+      "symbol": "oz"
+    },
+    {
+      "name": "livre de troy",
+      "coef": 2.6792285935883,
+      "symbol": "lb.tr"
+    },
+    {
+      "name": "once troy",
+      "coef": 32.150743126506,
+      "symbol": "oz.tr."
+    },
+    {
+      "name": "troy pennyweight",
+      "coef": 643.01493137256,
+      "symbol": "pwt.tr."
+    },
+    {
+      "name": "troy grain",
+      "coef": 15432.358352941,
+      "symbol": "grain.tr."
+    },
+    {
+      "name": "carat",
+      "coef": 5000,
+      "symbol": "cd"
+    }
+  ]
+}
