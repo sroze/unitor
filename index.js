@@ -7,22 +7,21 @@ var specifications = [ require('./specifications/volume.json')
 
 function initSpecificationsHashMap() {
   var hashMap = {
-    fromSymbol: {},
-    fromName: {}
+      fromSymbol: {}
+    , fromName: {}
   };
 
   specifications.forEach(function (specification, specificationId) {
     specification.values.forEach(function (value, valueId) {
       hashMap.fromName[value.name] = hashMap.fromSymbol[value.symbol] = {
-        specificationId: specificationId,
-        valueId: valueId
+          specificationId: specificationId
+        , valueId: valueId
       };
     });
   });
 
   return hashMap;
 }
-
 
 function Unitor(value, unit) {
   this.value = value;
@@ -39,8 +38,8 @@ function Unitor(value, unit) {
 }
 
 Unitor.prototype.convert = function (symbol) {
-  var coef = this.unit.coef,
-      unit = specificationsHashMap.fromSymbol[symbol] || specificationsHashMap.fromName[symbol];
+  var coef = this.unit.coef
+    , unit = specificationsHashMap.fromSymbol[symbol] || specificationsHashMap.fromName[symbol];
 
   if (!unit) {
     throw new Error('Cannot convert ' + this.name + ' units to ' + symbol + ' units.');
@@ -59,4 +58,3 @@ var unitor = function (value, unit) {
 };
 
 module.exports = unitor;
-
