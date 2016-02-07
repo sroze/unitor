@@ -14,7 +14,7 @@ npm install unitor --save
 
 ## Usage
 
-```sh
+```js
 var unitor = require('unitor');
 
 var unit = unitor(1, 'kg');
